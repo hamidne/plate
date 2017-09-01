@@ -1,0 +1,27 @@
+﻿Build started 4/5/2016 8:56:51 AM.
+     1>Project "D:\Developer\C++\8. OpenCV\Plate Detection\Plate Detection\Plate Detection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Plate Detection.cpp"
+         Plate Detection.cpp
+     1>c:\program files (x86)\tesseract-ocr\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\program files (x86)\tesseract-ocr\include\tesseract\platform.h(33) : see previous definition of 'snprintf'
+     1>c:\program files (x86)\tesseract-ocr\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>c:\program files (x86)\tesseract-ocr\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>Plate Detection.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>Plate Detection.cpp(101): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Plate Detection.cpp(160): warning C4018: '<' : signed/unsigned mismatch
+     1>Plate Detection.cpp(278): warning C4018: '<' : signed/unsigned mismatch
+     1>Plate Detection.cpp(290): warning C4018: '<' : signed/unsigned mismatch
+     1>Plate Detection.cpp(294): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Plate Detection.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Plate Detection.cpp(354): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Developer\C++\8. OpenCV\Plate Detection\Release\Plate Detection.exe" /NOLOGO libtesseract302.lib liblept168.lib liblept168d.lib opencv_calib3d2412.lib opencv_calib3d2412d.lib opencv_contrib2412.lib opencv_contrib2412d.lib opencv_core2412.lib opencv_core2412d.lib opencv_features2d2412.lib opencv_features2d2412d.lib opencv_flann2412.lib opencv_flann2412d.lib opencv_gpu2412.lib opencv_gpu2412d.lib opencv_highgui2412.lib opencv_highgui2412d.lib opencv_imgproc2412.lib opencv_imgproc2412d.lib opencv_legacy2412.lib opencv_legacy2412d.lib opencv_ml2412.lib opencv_ml2412d.lib opencv_nonfree2412.lib opencv_nonfree2412d.lib opencv_objdetect2412.lib opencv_objdetect2412d.lib opencv_ocl2412.lib opencv_ocl2412d.lib opencv_photo2412.lib opencv_photo2412d.lib opencv_stitching2412.lib opencv_stitching2412d.lib opencv_superres2412.lib opencv_superres2412d.lib opencv_ts2412.lib opencv_ts2412d.lib opencv_video2412.lib opencv_video2412d.lib opencv_videostab2412.lib opencv_videostab2412d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Developer\C++\8. OpenCV\Plate Detection\Release\Plate Detection.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Developer\C++\8. OpenCV\Plate Detection\Release\Plate Detection.lib" /MACHINE:X86 /SAFESEH "Release\Plate Detection.obj"
+         Generating code
+         Finished generating code
+         Plate Detection.vcxproj -> D:\Developer\C++\8. OpenCV\Plate Detection\Release\Plate Detection.exe
+     1>Done Building Project "D:\Developer\C++\8. OpenCV\Plate Detection\Plate Detection\Plate Detection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.65
